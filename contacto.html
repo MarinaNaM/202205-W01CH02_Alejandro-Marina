@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contacto</title>
+    </head>
+    <body>
+        <header>
+            <h2>ISDI Students</h2>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="quienessomos.html">Quienes somos</a></li>
+                    <li><a href="nuestroscv.html">Nuestros CV</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Completa el siguiente formulario</h1>
+            <section>
+                <form action="/sendform">
+                    <label for="username">Nombre:</label>
+                    <input type="text" id="username" name="username" />
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="mail" required />
+                    <label for="coments">Comentarios:</label>
+                    <textarea
+                        name="coments"
+                        id="coments"
+                        cols="30"
+                        rows="10"
+                    ></textarea>
+                    <button>Send</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
